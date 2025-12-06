@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quantico", sans-serif;
+}
+body{
+    background-color: #f4f4f4;
+}
+#add{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+#input1{
+    width: 250px;
+    height: 33px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+#input2{
+    width: 250px;
+    height: 33px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+#input3{
+    width: 250px;
+    height: 33px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+#input4{
+    width: 250px;
+    height: 33px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+#input5{
+    width: 250px;
+    height: 33px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+#btn{
+    width: 250px;
+    height: 33px;
+    border-radius: 7px;   
+    border: none;
+    background-color: #007ffb;
+    color: white;
+}
+#search{
+    width: 250px;
+    height: 33px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+
+#select{
+    width: 250px;
+    height: 33px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+.divvv{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.butbtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+.bbtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #007ffb;
+    border: none;
+    color: white;
+}
+
+#modal{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modal-content{
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+}
